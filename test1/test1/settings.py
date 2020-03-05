@@ -86,9 +86,13 @@ DATABASES = {
 # Internationalization
 # https://docs.djangoproject.com/en/1.8/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+# LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+LANGUAGE_CODE = 'zh-hans'  # 使用中文
+
+# TIME_ZONE = 'UTC'
+
+TIME_ZONE = 'Asia/Shanghai'  # 设置上海时区
 
 USE_I18N = True
 
