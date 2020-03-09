@@ -1,7 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23ab5bb7-574c-4c4e-b273-2c12d48675ba" name="Default Changelist" comment="" />
+    <list default="true" id="23ab5bb7-574c-4c4e-b273-2c12d48675ba" name="Default Changelist" comment="完成Django项目">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/qz_dev.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/qz_dev.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.md" beforeDir="false" afterPath="$PROJECT_DIR$/log.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/booktest/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test1/booktest/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/booktest/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/test1/booktest/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/booktest/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/test1/booktest/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/booktest/migrations/0002_heroinfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/test1/booktest/migrations/0002_heroinfo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/booktest/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test1/booktest/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/booktest/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/test1/booktest/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/booktest/templates/booktest/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/test1/booktest/templates/booktest/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/booktest/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/test1/booktest/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/booktest/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/test1/booktest/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/booktest/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/test1/booktest/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/test1/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/test1/manage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/test1/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test1/test1/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/test1/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/test1/test1/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/test1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/test1/test1/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1/test1/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/test1/test1/wsgi.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
