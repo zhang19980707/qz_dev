@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23ab5bb7-574c-4c4e-b273-2c12d48675ba" name="Default Changelist" comment="完成Django的后台管理">
-      <change afterPath="$PROJECT_DIR$/test1/booktest/templates/booktest/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/qz_dev.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/qz_dev.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log.md" beforeDir="false" afterPath="$PROJECT_DIR$/log.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/booktest/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/test1/booktest/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/booktest/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/test1/booktest/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/test1/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1/test1/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/test1/test1/settings.py" afterDir="false" />
-    </list>
+    <list default="true" id="23ab5bb7-574c-4c4e-b273-2c12d48675ba" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,8 +17,21 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="UPDATE_TYPE" value="MERGE" />
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="dev" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1Ys1vg9NHM5PnBHqw52fyzVgRjk" />
   <component name="PropertiesComponent">
@@ -96,17 +96,15 @@
       <option name="project" value="LOCAL" />
       <updated>1583386896512</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="完成Django项目">
+      <created>1583728120520</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1583728120521</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -135,6 +133,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="尝试使用pycharm来git" />
     <MESSAGE value="完成Django的后台管理" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成Django的后台管理" />
+    <MESSAGE value="完成Django项目" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成Django项目" />
   </component>
 </project>
