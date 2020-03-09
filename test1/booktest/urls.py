@@ -1,5 +1,8 @@
 from django.conf.urls import url
 from booktest import views
 
-index_ = [url(r'^index', views.index), ]
-urlpatterns = index_
+
+urlpatterns = [
+    url(r'^index$', views.index),
+    url(r'^(\d+)/$', views.detail),
+]
