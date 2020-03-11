@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect
-from booktest.models import BookInfo, HeroInfo
+from booktest.models import BookInfo, HeroInfo, AreaInfo
 from datetime import date
 from django.http import HttpResponseRedirect
 # Create your views here.
@@ -29,3 +29,9 @@ def delete(request, bid):
     # 转向到首页
     # return HttpResponseRedirect(redirect_to='/')  # 方法1
     return redirect('/index')
+
+
+# 查询广州市的信息
+def areas(request):
+    area = AreaInfo.objects.get(pk=440100)   # 按编号获得城市信息，返回一个object
+    return render(request, 'booktest/area.html', {'area': area})

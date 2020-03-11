@@ -19,3 +19,11 @@ class HeroInfo(models.Model):
     isDelete = models.BooleanField(default=False)  # 逻辑删除
     hcomment = models.CharField(max_length=200)
     hbook = models.ForeignKey('BookInfo')    # 关系属性
+
+
+class AreaInfo(models.Model):
+    """地区信息类"""
+    # 地区名称
+    atitle = models.CharField(max_length=20)
+    # 关系属性，定父级城市(自关联)
+    aParent = models.ForeignKey('self', null=True, blank=True)
