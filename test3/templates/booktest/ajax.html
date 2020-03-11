@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ajax请求</title>
+    <script src="/static/js/jquery-1.12.4.min.js"></script>
+    <script type="text/javascript">
+
+
+        $(function(){
+              // 绑定ajax的click事件
+
+              $('#btnajax').click(function(){
+
+                    $.ajax({
+
+                        'url':'/ajax_handle',
+                        'datatype': 'json',
+                    }).success(function(data){
+                        // 进行处理
+                        // alert(data.res)
+                        if (data.res == 1){
+                            $('#message').show().html('登录成功')
+                        }
+                    })
+
+              })
+        })
+    </script>
+    <style>
+
+        #message{
+            display: none;
+            color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <input type="button" id="btnajax" value="请求">
+    <div id="message"></div>
+</body>
+</html>
