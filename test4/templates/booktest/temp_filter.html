@@ -1,0 +1,19 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>模板标签</title>
+</head>
+<body>
+    <h1 style="background-color: blueviolet">模板标签</h1>
+    <ul>
+        {% for book in books %}
+            {% if book.id <= 1%}
+                <li style="background-color: red">{{ book.btitle }}--{{ book.bpub_date|date:'y年-m月-d日' }}</li>
+            {% else %}
+                <li style="background-color: green">{{ book.btitle }}--{{ book.bpub_date|date:'Y年-m月-d日' }}</li>
+            {% endif %}
+        {% endfor %}
+    </ul>
+</body>
+</html>
