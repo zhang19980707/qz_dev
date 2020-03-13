@@ -27,11 +27,11 @@ def my_render(request, templates_path, context=None):
 
 def login_required(view_func):
     """判断登录的装饰器函数"""
-    def wrapper(request, *view_args, **view_kwargs):
+    def wrapper(request, *view_args, **kwview_kwargs):
         # 判断用户是否登录
         if request.session.has_key('islogin'):
             # 用户已登录，调用对应的视图
-            return view_func(request, *view_args, **view_kwargs)
+            return view_func(request, *view_args, **kwview_kwargs)
         else:
             # 用户未登录，跳转一个相应页面
             return redirect('/login')
