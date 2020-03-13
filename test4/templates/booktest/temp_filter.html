@@ -1,5 +1,7 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
+<!--加载'templatefliter'(模型过滤器)-->
+{% load filters %}
 <head>
     <meta charset="UTF-8">
     <title>模板标签</title>
@@ -8,7 +10,9 @@
     <h1 style="background-color: blueviolet">模板标签</h1>
     <ul>
         {% for book in books %}
-            {% if book.id <= 1%}
+<!--            {# {% if book.id <= 1%} #} -->
+<!--            {# {% if book.id|num_val:2 } #} 自定义二元过滤器，选择|前面的元素作为一个参数传给过滤器-->
+            {% if bool.id|mod %}
                 <li style="background-color: red">{{ book.btitle }}--{{ book.bpub_date|date:'y年-m月-d日' }}</li>
             {% else %}
                 <li style="background-color: green">{{ book.btitle }}--{{ book.bpub_date|date:'Y年-m月-d日' }}</li>
