@@ -1,0 +1,9 @@
+{% extends 'booktest/base.html'%}
+{% block title %}
+    子模板的标题
+{% endblock %}
+{% block b1 %}
+<!--子模板继承父模板的block内容-->
+    {{ block.super }}
+    <h1>子模板内的内容</h1>
+{% endblock %}

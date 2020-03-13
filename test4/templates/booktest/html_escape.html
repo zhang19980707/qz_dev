@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>html转义</title>
+</head>
+<body>
+html转义<br/>
+{{ context }}<br/>
+<br/>
+<br/>
+<br/>
+使用safe过滤器关闭转义<br/>
+{{ context|safe }}<br/>
+<br/>
+<br/>
+<br/>
+使用autoescape标签关闭转义<br/>
+{% autoescape off %}
+    {{ context }}
+{% endautoescape %}
+模板硬编码字符串默认不经过转义<br/>
+{{ test|default:'<h1>hello</hello>' }}<br/>
+手动转义<br/>
+{{ test|default:'&lt;h1&gt;hello&lt;/h1&gt;' }}
+</body>
+</html>
