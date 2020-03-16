@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="815f4db0-b18c-433c-8120-14049a2acb43" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test4/booktest/templatetag/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test4/booktest/templatetag/filters.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test4/templates/booktest/temp_filter.html" beforeDir="false" afterPath="$PROJECT_DIR$/test4/templates/booktest/temp_filter.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,19 +32,24 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dailyfresh" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dailyfresh/templates" />
+    </key>
   </component>
   <component name="RunManager">
-    <configuration name="qz_dev" type="Python.DjangoServer" factoryName="Django server">
+    <configuration name="qz_dev" type="Python.DjangoServer" factoryName="Django server" editBeforeRun="true">
       <module name="qz_dev" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="SDK_HOME" value="$USER_HOME$/anaconda3/envs/Full_stack/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/dailyfresh" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -55,8 +57,8 @@
       <option name="port" value="8000" />
       <option name="host" value="" />
       <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
+      <option name="browserUrl" value="http://127.0.0.1:8000/" />
+      <option name="runTestServer" value="true" />
       <option name="runNoReload" value="false" />
       <option name="useCustomRunCommand" value="false" />
       <option name="customRunCommand" value="" />
@@ -79,6 +81,8 @@
       <workItem from="2530668624152" duration="108000" />
       <workItem from="2530669919736" duration="106000" />
       <workItem from="1584057732315" duration="2297000" />
+      <workItem from="1584331679628" duration="4937000" />
+      <workItem from="1584362276294" duration="55000" />
     </task>
     <servers />
   </component>
@@ -90,21 +94,35 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="744" y="240" width="424" height="518" key="FileChooserDialogImpl" timestamp="2530669964252">
+    <state x="450" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584332181224">
       <screen x="65" y="27" width="1855" height="1053" />
     </state>
-    <state x="744" y="240" width="424" height="518" key="FileChooserDialogImpl/65.27.1855.1053@65.27.1855.1053" timestamp="2530669964252" />
-    <state x="473" y="188" key="SettingsEditor" timestamp="2530667204189">
+    <state x="450" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/65.27.1855.1053@65.27.1855.1053" timestamp="1584332181224" />
+    <state x="658" y="114" width="658" height="876" key="#qz_dev" timestamp="1584338774769">
       <screen x="65" y="27" width="1855" height="1053" />
     </state>
-    <state x="473" y="188" key="SettingsEditor/65.27.1855.1053@65.27.1855.1053" timestamp="2530667204189" />
+    <state x="658" y="114" width="658" height="876" key="#qz_dev/65.27.1855.1053@65.27.1855.1053" timestamp="1584338774769" />
+    <state x="729" y="273" width="515" height="558" key="EnvironmentVariablesDialog" timestamp="1584332140337">
+      <screen x="65" y="27" width="1855" height="1053" />
+    </state>
+    <state x="729" y="273" width="515" height="558" key="EnvironmentVariablesDialog/65.27.1855.1053@65.27.1855.1053" timestamp="1584332140337" />
+    <state x="744" y="240" width="424" height="518" key="FileChooserDialogImpl" timestamp="1584362328927">
+      <screen x="65" y="27" width="1855" height="1053" />
+    </state>
+    <state x="744" y="240" width="424" height="518" key="FileChooserDialogImpl/65.27.1855.1053@65.27.1855.1053" timestamp="1584362328927" />
+    <state x="126" y="162" key="SettingsEditor" timestamp="1584333779400">
+      <screen x="65" y="27" width="1855" height="1053" />
+    </state>
+    <state x="126" y="162" key="SettingsEditor/65.27.1855.1053@65.27.1855.1053" timestamp="1584333779400" />
     <state x="646" y="380" key="com.intellij.ide.util.TipDialog" timestamp="2530669924835">
       <screen x="65" y="27" width="1855" height="1053" />
     </state>
