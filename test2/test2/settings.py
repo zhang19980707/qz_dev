@@ -81,7 +81,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         # 'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
         # 数据库实现自己创建
-        'NAME': 'test',
+        'NAME': 'test2',
         'USER': 'root',
         'PASSWORD': 'mysql',
         'HOST': '127.0.0.1',
