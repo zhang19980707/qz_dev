@@ -7,8 +7,8 @@ from django.views.generic import View  # 调用视图类模块
 from itsdangerous import TimedJSONWebSignatureSerializer as Serializer  # 引入加密信息模块
 from django.conf import settings  # 引入设置项，来设置token
 from itsdangerous import SignatureExpired  # 导入验证过期异常
-from django.core.mail import send_mail
-import re
+# from django.core.mail import send_mail
+from celery_tasks.tasks import send_register_active_email
 # Create your views here.
 
 
@@ -130,6 +130,7 @@ class RegisterView(View):
             token = token.decode()
 
             # 发送邮件
+            """
             subject = '天天生鲜欢迎信息'
             message = ''
             html_message = '<h1>%s,欢迎您成为天天呢生鲜的注册会员</h1>请点击下方链接激活账户<br/>' \
@@ -137,8 +138,9 @@ class RegisterView(View):
                            'http://127.0.0.1:8000/user/active/%s</a>' % (username, token, token)
             sender = settings.EMAIL_FROM
             receiver = [email]
+            """
+            send_register_active_email.delay(email, username, token)
 
-            send_mail(subject, message, sender, receiver, html_message=html_message)
         # 4.应答,使用方向解析跳转首页
         return redirect(reverse('goods:index'))
 
@@ -157,6 +159,7 @@ class Active(View):
             user = User.objects.get(id=user_id)
             user.is_active = 1
             user.save()
+
             return redirect(reverse('user:login'))
 
         except SignatureExpired as e:
