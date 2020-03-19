@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <script src="/static/js/jquery-1.12.4.min.js"></script>
+    <script>
+
+        $(function(){
+            $('#btnlogin').click(function(){
+                // 1.获取参数(用户名、密码)
+                username = $('#username').val()
+                password = $('#password').val()
+
+                // 2.通过ajax提交数据
+                $.ajax({
+                    'url': '/login_ajax_check',
+                    'type': 'post',
+                    'data': {'username': username, 'password': password},
+                    'datatype': 'json'
+                }).success(function(data){
+                    // 登录成功 res：1
+                    // 登录失败 res: 0
+                    if (data.res == 0){
+                        $('#message').show().html("用户名或密码错误")
+
+                    }
+
+                    else{
+                        // 跳转首页
+                        location.href = '/index'
+                    }
+
+                })
+
+
+            })
+        })
+    </script>
+    <style>
+
+        #message{
+            display: none;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<!--POST:提交的参数在请求体中（重要的数据，数据安全性高的时候）-->
+<!--GET:提交的参数在url中（）-->
+用户名：<input type="text" id="username">
+<br/>
+密码：<input type="password" id="password">
+<br/>
+    <input type="button" value="登录" id="btnlogin">
+    <div id="message"></div>
+</body>
+</html>
