@@ -8,7 +8,7 @@ from django.views.generic import View  # 调用视图类模块
 from itsdangerous import TimedJSONWebSignatureSerializer as Serializer  # 引入加密信息模块
 from django.conf import settings  # 引入设置项，来设置token
 from itsdangerous import SignatureExpired  # 导入验证过期异常
-# from django.core.mail import send_mail
+# from django.core.mail import send_mail  # django内部的发送邮件系统
 from celery_tasks.tasks import send_register_active_email  # 导入celery发送邮件的模块
 from utils.mixin import LoginRequiredMixin  # 导入小工具中的登录验证装饰器
 from django_redis import get_redis_connection  # 使用django_redis链接方式
@@ -157,7 +157,7 @@ class Active(View):
         """进行用户激活"""
         # 解密用户信息
         token = token.encode()
-        serializer = Serializer(settings.SECRET_KEY, 5)
+        serializer = Serializer(settings.SECRET_KEY, 3000)
         try:
             info = serializer.loads(token)
             # 获取待激活用户的信息
