@@ -5,4 +5,4 @@ from django.shortcuts import render
 
 def index(request):
     """首页视图"""
-    return render(request, 'index.html')
+    return render(request, 'base.html')
